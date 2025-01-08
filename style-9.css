@@ -44,8 +44,8 @@ body {
   width: 14px;
   height: 14px;
   position: absolute;
-  top: 12px;
-  left: 12px;
+  top: 16px;
+  right: 16px;
   border-radius: 50%;
   padding: 8px;
   -webkit-border-radius: 50%;
@@ -69,13 +69,14 @@ body {
 }
 
 .product-info p:nth-child(2) {
+  font-weight: 700;
   font-size: var(--md);
   margin: 0 0 16px 0;
   color: var(--very-light-pink);
 }
 
 .product-info p:nth-child(3) {
-  font-size: var(--md);
+  font-size: var(--sm);
   margin: 0 0 32px 0;
   color: var(--very-light-pink);
 }
